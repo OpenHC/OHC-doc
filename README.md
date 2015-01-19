@@ -1,4 +1,4 @@
-[Header logo](/img/header.png)
+![Header logo](/img/header.png)
 
 OHC-doc
 =======
