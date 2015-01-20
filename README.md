@@ -404,3 +404,76 @@ werden müssen. Die Verbindungen werden mehrere Sicherheitsfeatures erhalten:
 3. Um brute forcing zu unterbinden wird die maximale Menge von Paketen, bei denen entweder die Sequenznummer oder die Challenge falsch sein dürfen auf 20 Stück pro Minute begrenzt. Wenn ein Gerät aber danach mit der korrekten Challenge um die Wiederholung eines Paketes bittet, wird dieser Counter zurückgesetzt. Damit sind Brute Force Attacken in unter 1000 Jahren nicht machbar
 
 Diese Maßnahmen werden die Verschlüsselung auch für versierte Angreifer heutzutage unknackbar machen
+
+## 6. Bedienungsanleitung
+
+### Login
+
+Sobald Sie die App öffnen, werden Sie dazu aufgefordert sich anzumelden. Geben Sie dazu
+einfach Ihren Benutzernamen und Ihr Kennwort ein und drücken Sie anschließend auf „Verbinden“.
+
+![Screenshot login](/img/login.png)
+
+Unterhalb des Logins erscheint außerdem eine kurze Statusmeldung, die Sie darüber in Kenntnis
+setzt, ob die Basisstation gefunden werden konnte und welche IP Adresse diese verwendet.
+
+### Gerät hinzufügen
+
+Um ein neues Gerät hinzuzufügen verbinden Sie dieses zunächst an den dafür vorgesehenen
+Steckplätzen mit der Basisstation. Dadurch werden automatisch alle relevanten Informationen
+übertragen und Ihr Gerät ist anschließend einsatzbereit. Wenn Sie sich das nächste Mal in der
+App einloggen, erscheint es automatisch in der Übersichtsliste.
+
+![Screenshot overview](/img/device_overview.png)
+
+### Gerät bedienen
+
+Wenn Sie ein dimmbares Gerät angeschlossen haben, können Sie die Helligkeit der einzelnen
+Leuchtmittel über die Schieberegler verändern.
+
+![Screenshot dimmable rgb](/img/device_set_1.png)
+
+So sieht der zugehörige Prototyp aus. Die Helligkeit der LEDs ist auf dem Bild nur schwer zu
+erkennen.
+
+![prototype dimmable rgb](/img/prototype_rgb.jpg)
+
+Schließen Sie ein Gerät an, das nur an- oder ausgeschaltet werden kann, zeigt Ihnen die App
+automatisch nur einen Schalter an.
+
+![Screenshot switchable](/img/device_set_3.png)
+
+In dieser Ansicht können Sie außerdem den Gerätenamen ändern, indem Sie einfach in der
+Kopfzeile auf diesen tippen.
+
+### IP Adresse konfigurieren
+
+Sollten Sie der Basisstation in Ihrem Heimnetzwerk eine feste IP Adresse zuweisen, können Sie
+diese manuell in der App angeben. Tippen Sie dazu auf das Zahnrad in oberen, rechten Ecke.
+
+![Screenshot options](/img/settings_ip.png)
+
+![Screenshot set ip](/img/settings_set_ip.png)
+
+## 7. Verbesserungen & Ideen für die Zukunft
+
+Selbstverständlich zählt zum vollständigen Abschluss eines (Software-)Projektes auch die intensive
+Auseinandersetzung mit Ablauf und Ergebnis des selbigen, um im Anschluss ein Resümee
+ziehen zu können und Ideen für neue Projektarbeiten aber auch für Verbesserungen am abgeschlossenen
+Projekt festzuhalten.
+Insgesamt sind wir mit dem Verlauf des Projekts sehr zufrieden, da wir durch die häufige Absprache
+in der Gruppe immer Kompromisse gefunden haben, mit denen im Ergebnis alle zufrieden
+sind und durch die gute Organisation und Einteilung der Arbeit Stress in den letzten Wochen
+vor der Deadline vermieden werden konnte.
+Dennoch stellte sich unser Vorhaben gerade in Bezug auf die Programmierung der Hardware als
+deutlich komplexer heraus als zu Beginn angenommen. Deshalb haben wir es leider nicht geschafft
+die ursprünglich geplante Zeitsteuerung in die App bzw. in das Gateway zu integrieren,
+sodass diese jetzt auf der Liste unserer Ideen für weitere Verbesserungen landet.
+Dort stehen an erster Stelle Applikationen/Programme für andere Betriebssysteme. Wenn unser
+System tatsächlich zum einsatzkommen soll, wären Apps fürs iPhone/iPad und fürs Windowsphone
+wünschenswert. Ebenso wären Anwendungen für Macs, Linux und Windows Systeme
+denkbar, wobei ersatzweise natürlich auch auf das Webinterface des Gateways zugegriffen werden
+kann.
+Abseits davon könnte es auch interessant sein einen Stromzähler zu integrieren und eine Möglichkeit
+zu entwickeln, die einzelnen Geräte in Gruppen zu gliedern und auch gruppenweise zu
+steuern.
