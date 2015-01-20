@@ -32,26 +32,40 @@ Datum: 20.01.2015
 Abbildung 1:
 www.de.wikipedia.org/wiki/Open_Source#mediaviewer/File:Opensource.svg
 abgerufen am 19.12.2014
+
 Abbildung 2:
 www.roboter-bausatz.de/media/image/thumbnail/FZ0550-2_720x600.jpg
 abgerufen am 10.01.2015
+
 Abbildung 3:
 www.de.wikipedia.org/wiki/Datei:Raspberry_Pi_Logo.svg
 abgerufen am 10.01.2015
 
 ## ABBILDUNGSVERZEICHNIS
 Abbildung 1: Open Source
+
 Abbildung 2: Funkmodul
+
 Abbildung 3: Raspberry Pi
+
 Abbildung 4: Schaltplan des Raspberry PI's mit Funkmodul
+
 Abbildung 5: Schaltplan einer ferngesteuerten Steckdose
+
 Abbildung 6: Schaltplan ohne Netzteil & Relais
+
 Abbildung 7: Login
+
 Abbildung 8: Übersichtsliste
+
 Abbildung 9: Dimmbares Gerät
+
 Abbildung 10: Dimmbarer Prototyp
+
 Abbildung 11: Nicht dimmbares Gerät
+
 Abbildung 12: IP Adresse manuell setzen
+
 Abbildung 13: IP Adresse eingeben
 
 ## 1. Motivation & Idee
